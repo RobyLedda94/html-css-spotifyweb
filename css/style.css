@@ -9,7 +9,6 @@
 
 .top-section{
     height: calc(100vh - 100px);
-    background-color: red;
     display: flex;
 }
 
@@ -40,6 +39,13 @@ header{
     width: calc(100vw - 75px);
     text-align: right;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+main{
+    width: calc(100);
 }
 
 

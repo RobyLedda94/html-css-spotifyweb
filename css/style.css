@@ -22,11 +22,15 @@
 .sidebar{
     width: 75px;
     background-color: rgb(94, 94, 94);
+
 }
 
 .main-content{
     width: calc(100vw - 75px);
     background-color: black;
+    overflow-y: auto;
+    padding-top: 100px;
+    
 }
 
 header{
@@ -37,7 +41,6 @@ header{
     width: 100%;
     background-color: rgba(180, 209, 77, 0.397);
     width: calc(100vw - 75px);
-    text-align: right;
     height: 100px;
     display: flex;
     align-items: center;
@@ -45,7 +48,7 @@ header{
 }
 
 main{
-    width: calc(100);
+    height: calc(100vh - 200px);
 }
 
 
@@ -59,12 +62,16 @@ main{
 
     .main-content{
         width: calc(100vw - 220px);
+        padding-top: 100px;
     }
 
     header{
         left: 220px;
         width: calc(100vw - 220px);
-        height: 100px;
+    }
+
+    main{
+        height: calc(100vh - 200px);
     }
 }
 

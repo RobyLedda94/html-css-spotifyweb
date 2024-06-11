@@ -170,7 +170,10 @@ ul li{
 
 .playbar-controls .playbar{
     width: 70%;
-    background-color: #bcbe39;   
+    background-color: #bcbe39; 
+    border-radius: 10px;
+    margin: 5px 20px 0px 20px;  
+    height: 10px;
 }
 
 .buttons-list{

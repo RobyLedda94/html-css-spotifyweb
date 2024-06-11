@@ -100,17 +100,14 @@ header > .header-btn{
 }
 
 
-.unordered-list-sidebar{
+.list-side-bar{
     list-style-type: none;
 }
 
-.unordered-list-sidebar li{
+.list-side-bar li{
     color: #fff;
 }
 
-.label{
-    display: none;
-}
 
 
 
@@ -236,6 +233,18 @@ header > .header-btn{
 }
 
 
+/* .img-label{
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px;
+    background-color: red;
+}
+
+.img-label img{
+    width: 100%;
+} */
+
+
 
 
 
@@ -314,9 +323,7 @@ header > .header-btn{
         width: 15%;
     }
 
-    .label{
-        display: inline;
-    } 
+
 
 
 }

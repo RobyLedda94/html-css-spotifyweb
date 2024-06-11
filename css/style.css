@@ -109,7 +109,7 @@ header{
 
 
     .col-33{
-        width: calc(100% / 4);
+        width: calc(100% / 2 - 20px);
     }
 
 }

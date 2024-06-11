@@ -45,7 +45,7 @@ header{
     justify-content: end;
 }
 
-main{
+.playlist-section{
     height: calc(100vh - 200px);
     display: flex;
     flex-direction: column;
@@ -66,9 +66,13 @@ main{
     width: calc(100% / 2);
 }
 
+
+
+/* Utility class */
+
 .content{
     width: 100%;
-    height: 100px;
+    height: 250px;
     background-color: red;
     border: 1px solid black;
 }
@@ -92,9 +96,12 @@ main{
         width: calc(100vw - 220px);
     }
 
-    main{
+    .playlist-section{
         height: calc(100vh - 200px);
     }
+
+
+
 
     .col-33{
         width: calc(100% / 3);
@@ -104,6 +111,8 @@ main{
 
 
 @media screen and (min-width : 1200px) {
+  
+  
     .col-33{
         width: calc(100% / 6);
     }

@@ -100,6 +100,22 @@ header > .header-btn{
 }
 
 
+.unordered-list-sidebar{
+    list-style-type: none;
+}
+
+.unordered-list-sidebar li{
+    color: #fff;
+}
+
+.label{
+    display: none;
+}
+
+
+
+
+
 .navigation-list{
     list-style-type: none;
     display: flex;
@@ -133,17 +149,12 @@ header > .header-btn{
 }
 
 
-/* ul{
-    list-style-type: none;
-}
 
-ul li{
-    color: #fff;
-}
 
-.label{
-    display: none;
-} */
+
+
+
+
 
 .image-container{
     position: relative;
@@ -303,9 +314,9 @@ ul li{
         width: 15%;
     }
 
-    /* .label{
+    .label{
         display: inline;
-    } */
+    } 
 
 
 }

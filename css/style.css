@@ -64,14 +64,14 @@ header{
 .left-col, .right-col{
     width: 15%;
     height: 100%;
-    background-color: green;
+    background-color:#282828;
     border: 1px solid black;
 }
 
 .center-col{
     width: 70%;
     height: 100%;
-    background-color:orange;
+    background-color:#282828;
     border: 1px solid black;
 }
 
@@ -92,7 +92,35 @@ header > .header-btn{
 }
 
 
-ul{
+.navigation-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation-list li{
+    color: rgb(99, 99, 99);
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.playlist-name > h2{
+    color: #fff;
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+.playlist-name > span{
+    display: inline-block;
+    color:rgb(99, 99, 99);;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+}
+
+
+/* ul{
     list-style-type: none;
 }
 
@@ -102,7 +130,7 @@ ul li{
 
 .label{
     display: none;
-}
+} */
 
 .image-description p{
     font-weight: bold;
@@ -121,12 +149,6 @@ ul li{
 
 /* Utility class */
 
-/* .content{
-    width: 100%;
-    height: 250px;
-    background-color: red;
-    border: 1px solid black;
-}  */
 
 .image-description{
     width: 100%;
@@ -147,6 +169,10 @@ ul li{
 .col-33{
     width: calc(100% / 2 - 20px);
     margin: 10px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .playlist-img{
@@ -185,9 +211,9 @@ ul li{
         width: calc(100% / 2 - 20px);
     }
 
-    .label{
+    /* .label{
         display: inline;
-    }
+    } */
 
 
 }

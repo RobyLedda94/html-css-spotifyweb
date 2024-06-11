@@ -66,18 +66,21 @@ header{
 }
 
 .left-col, .right-col{
-    width: 15%;
+    width: 200px;
     height: 100%;
     background-color:#282828;
     border: 1px solid black;
 }
 
 .center-col{
-    width: 70%;
+    width: calc(100% - 400px);
     height: 100%;
     background-color:#282828;
     border: 1px solid black;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -95,6 +98,7 @@ header > .header-btn{
     border: 1px solid #fff;
     border-radius: 27px;
     margin-right: 10px;
+    width: 250px;
 }
 
 
@@ -152,18 +156,36 @@ ul li{
 
 .playbar-controls{
     display: flex;
+    width: 100%;
+}
+
+.playbar-controls .current{
+    text-align: right;
 }
 
 .playbar-controls .current, .playbar-controls .end{
     width: 15%;
     color: #fff;
-    border: 1px solid black;
 }
 
 .playbar-controls .playbar{
     width: 70%;
-    background-color: #bcbe39;
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #bcbe39;   
+}
+
+.buttons-list{
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+}
+
+.buttons-list li{
+    margin: 10px 10px;
+}
+
+.buttons-list li i{
+    color: #fff;
+    font-size: 25px;
 }
 
 
@@ -233,6 +255,15 @@ ul li{
 
     .col-33{
         width: calc(100% / 2 - 20px);
+    }
+
+
+    .center-col{
+        width: 70%;
+    }
+
+    .left-col, .right-col{
+        width: 15%;
     }
 
     /* .label{

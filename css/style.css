@@ -61,7 +61,6 @@ header{
 
 .bottom-section{
     height: 100px;
-    background-color: blue;
     display: flex;
 }
 
@@ -69,14 +68,13 @@ header{
     width: 200px;
     height: 100%;
     background-color:#282828;
-    border: 1px solid black;
+    
 }
 
 .center-col{
     width: calc(100% - 400px);
     height: 100%;
     background-color:#282828;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,6 +111,11 @@ header > .header-btn{
     color: rgb(99, 99, 99);
     margin: 10px 10px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.navigation-list li:hover{
+    color: #fff;
 }
 
 .playlist-name > h2{
@@ -179,13 +182,14 @@ ul li{
 .level{
     height: 100%;
     width: 30%;
+    border-radius: 10px;
     background-color: rgb(173, 173, 173);
 }
 
 .buttons-list{
     list-style-type: none;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 }
 
 .buttons-list li{

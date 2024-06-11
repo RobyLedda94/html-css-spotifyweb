@@ -170,10 +170,16 @@ ul li{
 
 .playbar-controls .playbar{
     width: 70%;
-    background-color: #bcbe39; 
+    background-color: rgb(85, 85, 85);
     border-radius: 10px;
     margin: 5px 20px 0px 20px;  
     height: 10px;
+}
+
+.level{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(173, 173, 173);
 }
 
 .buttons-list{
@@ -183,13 +189,14 @@ ul li{
 }
 
 .buttons-list li{
-    margin: 10px 10px;
+    margin: 10px 15px;
 }
 
 .buttons-list li i{
     color: #fff;
     font-size: 25px;
 }
+
 
 
 

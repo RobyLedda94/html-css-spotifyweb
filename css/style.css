@@ -47,15 +47,26 @@
 
 .sidebar > .sidebar-icons{
     list-style-type: none;
+    
 }
 
 .sidebar-icons li{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .sidebar-icons i{
     font-size: 25px;
     color: #fff;
+}
+
+
+.sidebar-footer{
+    text-align: center;
+}
+
+.sidebar-footer .fa-circle-arrow-down{
+    font-size: 15px;
+    margin-left: 1px;
 }
 
 
@@ -149,6 +160,7 @@ header > .header-btn{
     .col-33{
         width: calc(100% / 2 - 20px);
     }
+
 
 }
 

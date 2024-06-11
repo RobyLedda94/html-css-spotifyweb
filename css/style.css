@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 
 /* Layout classes */
 
@@ -73,6 +77,8 @@ header{
     height: 100%;
     background-color:#282828;
     border: 1px solid black;
+    text-align: center;
+    
 }
 
 
@@ -144,6 +150,22 @@ ul li{
     color: rgb(99, 99, 99);
 }
 
+.playbar-controls{
+    display: flex;
+}
+
+.playbar-controls .current, .playbar-controls .end{
+    width: 15%;
+    color: #fff;
+    border: 1px solid black;
+}
+
+.playbar-controls .playbar{
+    width: 70%;
+    background-color: #bcbe39;
+    border: 1px solid rgb(0, 0, 0);
+}
+
 
 
 
@@ -182,6 +204,8 @@ ul li{
 .playlist-img.radius{
     border-radius: 50%;
 }
+
+
 
 
 

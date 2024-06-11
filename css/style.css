@@ -19,11 +19,26 @@
     display: flex;
 }
 
+.left-col, .right-col{
+    width: 15%;
+    height: 100%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.center-col{
+    width: 70%;
+    height: 100%;
+    background-color:orange;
+    border: 1px solid black;
+}
+
 
 
 .sidebar{
     width: 75px;
     background-color: rgb(94, 94, 94);
+    display: flex;
 
 }
 

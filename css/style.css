@@ -59,6 +59,8 @@ header{
     background-color: red;
     border: 1px solid black;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-sidebar{
@@ -91,7 +93,7 @@ header{
     list-style-type: none;
     margin-top: 10px;
     padding: 10px;
-    height: 80%;
+    height: 10vh;
     overflow-y: auto;
 }
 
@@ -102,6 +104,10 @@ header{
 .playlist-list li a{
     text-decoration: none;
     color: #fff;
+}
+
+.nav-playlist{
+    display: none;
 }
 
 
@@ -427,7 +433,9 @@ header > .header-btn{
 
     }
 
-
+    .nav-playlist{
+        display: block;
+    }
 
 
 }

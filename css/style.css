@@ -213,6 +213,11 @@ hr{
     display: none;
 }
 
+.container-bottom > .color{
+    color: #fff;
+    font-weight: bold;
+}
+
 
 
 
@@ -562,7 +567,7 @@ header > .header-btn{
         display: block;
     }
     
-    
+
 
 
 }

@@ -221,6 +221,12 @@ hr{
     
 }
 
+.right-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .center-col{
     width: calc(100% - 400px);
     height: 100%;
@@ -247,6 +253,10 @@ header > .header-btn{
     border-radius: 27px;
     margin-right: 10px;
     width: 250px;
+}
+
+.header-btn:hover{
+    width: 260px;
 }
 
 
@@ -423,7 +433,7 @@ header > .header-btn{
 
 .buttons-right{
     display: inline-block;
-    margin-top: 55px;
+    /* margin-top: 55px; */
     color: #fff;
     font-size: 10px;
 }

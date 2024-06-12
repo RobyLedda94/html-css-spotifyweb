@@ -99,26 +99,7 @@ header > .header-btn{
 }
 
 
-.list-side-bar-top{
-    list-style-type: none;
-}
 
-.list-side-bar-top li{
-    color: #fff;
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-
-.list-side-bar-bottom{
-    list-style-type: none
-}
-
-.list-side-bar-bottom{
-    color: #fff;
-    font-size: 20px;
-    margin: 10px 0;
-}
 
 
 
@@ -218,7 +199,7 @@ header > .header-btn{
     width: 70%;
     background-color: rgb(85, 85, 85);
     border-radius: 10px;
-    margin: 5px 20px 0px 20px;  
+    margin: 5px 10px 0px 10px;  
     height: 10px;
 }
 
@@ -236,7 +217,7 @@ header > .header-btn{
 }
 
 .buttons-list li{
-    margin: 10px 15px;
+    margin: 10px 10px;
 }
 
 .buttons-list li i{

@@ -56,8 +56,6 @@ header{
 
 .top-sidebar{
     height: calc(100% - 110px);
-    /* background-color: red; */
-    /* border: 1px solid black; */
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -66,27 +64,18 @@ header{
 .bottom-sidebar{
     height: 80px;
     width: 100%;
-    /* background-color: blue; */
-    /* border: 1px solid black; */
 }
 
 .nav-logo{
     height: 80px;
-    /* background-color: green; */
-    /* border: 1px solid black; */
 }
 
 .nav-menu{
     height: 150px;
     margin-top: 20px;
-    /* background-color: aqua; */
-    /* border: 1px solid black; */
 }
 
 .nav-playlist{
-    /* height: calc(100% - 230px); */
-    /* background-color: orange; */
-    /* border: 1px solid black; */
     overflow-y: hidden;
 }
 
@@ -159,8 +148,6 @@ header{
 .nav-img-square{
     width: 40px;
     height: 40px;
-    /* background-color: red; */
-    /* border: 1px solid black; */
     margin: 5px 5px 5px 17px;
     display: flex;
 }

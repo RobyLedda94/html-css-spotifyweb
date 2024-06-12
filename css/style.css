@@ -94,7 +94,7 @@ header{
     list-style-type: none;
     margin-top: 10px;
     padding: 10px;
-    height: 10vh;
+    height: 15vh;
     overflow-y: auto;
 }
 
@@ -104,6 +104,10 @@ header{
 
 .playlist-list li a{
     text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.playlist-list li a:hover{
     color: #fff;
 }
 
@@ -127,7 +131,15 @@ header{
     margin: 10px;
 }
 
+.nav-playlist > a:hover{
+    background-color: #fff;
+}
+
 .nav-playlist > span{
+    color: rgb(99, 99, 99);
+}
+
+.nav-playlist > span:hover{
     color: #fff;
 }
 
@@ -166,6 +178,19 @@ header{
 
 .nav-img-square > span{
     display: none;
+}
+
+
+
+.bottom-square{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.bottom-square > img{
+    width: 100%;
 }
 
 

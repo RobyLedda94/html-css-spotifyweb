@@ -55,7 +55,7 @@ header{
 
 
 .top-sidebar{
-    height: calc(100% - 80px);
+    height: calc(100% - 110px);
     /* background-color: red; */
     /* border: 1px solid black; */
     overflow-y: hidden;
@@ -182,18 +182,36 @@ header{
 
 
 
-.bottom-square{
-    width: 60px;
-    height: 60px;
-    background-color: red;
-    border: 1px solid black;
-}
-
-.bottom-square > img{
-    width: 100%;
+.label-img-bottom > img{
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 21px;
 }
 
 
+.container-bottom{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 5px 17px;
+    display: flex;
+}
+
+.container-bottom > img{
+    width: 22px;
+}
+
+.container-bottom > span{
+    color: rgb(99, 99, 99);
+    margin-left: 10px;
+}
+
+hr{
+    display: none;
+}
+
+.container-bottom > span{
+    display: none;
+}
 
 
 
@@ -533,6 +551,17 @@ header > .header-btn{
     .nav-img-square > span{
         display: block;
     }
+
+    hr{
+        display: block;
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .container-bottom > span{
+        display: block;
+    }
+    
     
 
 

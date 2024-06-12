@@ -103,7 +103,7 @@ header > .header-btn{
 
 
 
-
+/* main section img */
 
 
 .navigation-list{
@@ -138,14 +138,6 @@ header > .header-btn{
     
 }
 
-
-
-
-
-
-
-
-
 .image-container{
     position: relative;
     width: 100%;
@@ -167,8 +159,6 @@ header > .header-btn{
 }
 
 
-
-
 .image-description p{
     font-weight: bold;
     color: #fff;
@@ -180,6 +170,59 @@ header > .header-btn{
     font-weight: bold;
     color: rgb(99, 99, 99);
 }
+
+.playlist-img{
+    width: 100%;
+}
+
+.playlist-img.radius{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* Button section */
+
+
+
+
+
+.square-img{
+    width: 25%;  
+    margin: 28px 5px 0px 10px;
+    display: inline-block;
+}
+
+.square-img > img{
+    width: 100%;
+}
+
+
+.description-label{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.description-label > p{
+    color: #fff;
+}
+
+.description-label > span{
+    color: rgb(99, 99, 99);
+}
+
+.bottom-icons{
+    display: inline-block;
+    width: 10%;
+    color: rgb(99, 99, 99);
+}
+
+
 
 .playbar-controls{
     display: flex;
@@ -225,6 +268,15 @@ header > .header-btn{
     font-size: 25px;
 }
 
+.audio-level{
+    width: 20px;
+    height: 10px;
+    background-color: #fff;
+}
+
+
+
+
 
 
 
@@ -260,13 +312,7 @@ header > .header-btn{
     text-align: center;
 }
 
-.playlist-img{
-    width: 100%;
-}
 
-.playlist-img.radius{
-    border-radius: 50%;
-}
 
 
 
@@ -300,11 +346,18 @@ header > .header-btn{
 
 
     .center-col{
-        width: 70%;
+        width: 60%;
     }
 
     .left-col, .right-col{
-        width: 15%;
+        width: 20%;
+    }
+
+    .bottom-icons{
+        display: inline-block;
+        width: 20%;
+        color: rgb(99, 99, 99);
+
     }
 
 

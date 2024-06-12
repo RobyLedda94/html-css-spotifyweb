@@ -192,8 +192,8 @@ header > .header-btn{
 
 
 .square-img{
-    width: 25%;  
-    margin: 28px 5px 0px 10px;
+    width: 15%;  
+    margin: 38px 5px 0px 10px;
     display: inline-block;
 }
 
@@ -268,10 +268,27 @@ header > .header-btn{
     font-size: 25px;
 }
 
+
+
+.buttons-right{
+    display: inline-block;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 10px;
+}
+
+
 .audio-level{
-    width: 20px;
-    height: 10px;
-    background-color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    width: 45%;
+    height: 6px;
+    background-color: rgb(85, 85, 85);
+    margin-left: 10px;
+}
+
+.m-5{
+    margin: 0 5px;
 }
 
 

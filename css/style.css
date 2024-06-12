@@ -50,14 +50,14 @@ header{
 
 .sidebar{
     width: 75px;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0); 
 }
 
 
 .top-sidebar{
     height: calc(100% - 80px);
-    background-color: red;
-    border: 1px solid black;
+    /* background-color: red; */
+    /* border: 1px solid black; */
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -66,26 +66,27 @@ header{
 .bottom-sidebar{
     height: 80px;
     width: 100%;
-    background-color: blue;
-    border: 1px solid black;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
 }
 
 .nav-logo{
     height: 80px;
-    background-color: green;
-    border: 1px solid black;
+    /* background-color: green; */
+    /* border: 1px solid black; */
 }
 
 .nav-menu{
     height: 150px;
-    background-color: aqua;
-    border: 1px solid black;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
 }
 
 .nav-playlist{
     /* height: calc(100% - 230px); */
-    background-color: orange;
-    border: 1px solid black;
+    /* background-color: orange; */
+    /* border: 1px solid black; */
     overflow-y: hidden;
 }
 
@@ -107,8 +108,67 @@ header{
 }
 
 .nav-playlist{
+    padding: 18px;
+}
+
+.nav-playlist > h2{
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 9px;
+}
+
+.nav-playlist > a{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 0 18px;
+    margin: 10px;
+}
+
+.nav-playlist > span{
+    color: #fff;
+}
+
+.nav-playlist{
     display: none;
 }
+
+.nav-logo{
+    width: 100%;
+    padding: 15px;
+}
+
+.nav-logo > .logo-bg{
+    display: none;
+}
+
+.nav-img-square{
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    margin: 5px 5px 5px 17px;
+    display: flex;
+}
+
+.nav-img-square > span{
+    margin-top: 12px;
+    margin-left: 7px;
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+}
+
+.nav-img-square > span:hover{
+    color: #fff;
+}
+
+.nav-img-square > span{
+    display: none;
+}
+
+
 
 
 
@@ -436,6 +496,19 @@ header > .header-btn{
     .nav-playlist{
         display: block;
     }
+
+    .nav-logo > .logo-bg{
+        display: block;
+    }
+
+    .nav-logo > .logo-sm{
+        display: none;
+    }
+
+    .nav-img-square > span{
+        display: block;
+    }
+    
 
 
 }
